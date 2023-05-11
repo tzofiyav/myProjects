@@ -1,0 +1,37 @@
+h1{
+    direction: rtl;
+    font-size: 100px;
+    margin-top: 80px;
+    font-style: italic;
+    color:rgb(39, 39, 243);
+    
+}
+
+
+h4{
+    direction: rtl;  
+}
+
+form{
+    direction: rtl;
+}
+
+
+body{
+    background-color:beige;
+    text-align: center;
+}
+
+input{
+    margin-bottom: 10px; 
+    margin-top: 10px; 
+    direction: rtl;   
+    border-radius: 10px; 
+    height: 40px; 
+    border-color:aqua; 
+    text-align: center;
+}
+
+p{
+    direction: rtl;
+}

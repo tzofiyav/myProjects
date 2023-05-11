@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="stylesheet" href="index1.css">
+<!--<meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <script src="index1.js"></script>-->
+    <title>קופה</title>
+</head>
+<body>
+    <h1 id="my_header">חברי הקופה</h1>
+
+    
+    שם פרטי: <input type="text" size="15px" name="check" id="text_to_add" ></input>
+    שם משפחה: <input type="text" size="15px"  name="check" id="text_to_add2"></input>
+    תעודת זהות: <input type="number" name="check" size="15px"   id="text_to_add3" ></input>
+    <br><br><br>
+    כתובת:  עיר:<input type="text" name="check" size="15px"   id="text_to_add4" ></input>
+    רחוב:<input type="text" name="check" size="15px"   id="text_to_add5" ></input>
+    מס' בית:<input type="number" name="check" size="15px"   id="text_to_add6" ></input>
+    <br><br><br>
+    תאריך לידה:<input type="date" name="check" size="15px"   id="text_to_add7"></input>
+    טלפון:<input type="number" name="check" size="15px"   id="text_to_add8"></input>
+    טלפון נייד:<input type="number" name="check" size="15px"   id="text_to_add9"></input>
+    <br><br><br>
+    תמונת חבר הקופה (אופציונאלי):<input type="file" id="myFile" accept="image/*"></input>
+    <div id="myImg"></div>
+    <br><br><br>
+    <h4>פרטי קורונה:</h4>
+    <label for="vaccination">מנות חיסון שנטל/ה:</label>
+  <select id="vaccination" name="vaccination" onchange="list()">
+    <option value="0">0</option>
+    <option value="1">1</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+    <option value="4">4</option>
+  </select>
+  <br><br><br>
+  <div id="dates"></div>
+  <br><br><br>
+  <label for="corona">חלה/תה בקורונה: </label>
+  <select id="corona" name="corona" onchange="corona()">
+    <option value="n">לא</option>
+    <option value="y">כן</option>
+  </select>
+  <br><br><br>
+  <div id="dates2"></div>
+  <br><br><br>
+    <button id="btn_add">הוסף חבר</button>
+    <br><br><br>
+    <br>
+    <table id="customers">
+        <tr>
+          <th>מס'</th>
+          <th>שם פרטי</th>
+          <th>שם משפחה</th>
+        </tr>
+        
+        </table>
+</body>
+</html>   <script src="index1.js"></script> 
+<script type="module" src="db.js"></script>

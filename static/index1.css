@@ -1,0 +1,48 @@
+h1{
+  direction: rtl;
+  font-size: 150px;
+  margin-top: 50px;
+  font-style: italic;
+  color:rgb(39, 39, 243);
+}
+
+body{
+  background-color:beige;
+  direction: rtl;
+  text-align: center;
+  color: rgb(39, 39, 243);
+}
+
+#btn_add{
+  color: rgb(39, 39, 243);
+}
+
+table{
+  margin-right: 150px;
+  margin-bottom: 80px;
+  
+}
+
+th{
+  padding: 20px;
+}
+
+td{
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+#customers {
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius:  6%;
+  border: 2px solid;
+  margin-right: 460px;
+}
+
+
+#customers tr:nth-child(even){background-color:rgb(202, 234, 240);}
+
+#customers tr:hover {background-color: rgb(146, 188, 236);}
+
+
+
